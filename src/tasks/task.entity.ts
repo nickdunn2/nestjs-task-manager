@@ -2,7 +2,7 @@ import { BaseEntity, Column, Entity, PrimaryGeneratedColumn } from 'typeorm/inde
 import { TaskStatus } from './task.model'
 
 @Entity()
-export class Task extends BaseEntity {
+export class TaskEntity extends BaseEntity {
   @PrimaryGeneratedColumn()
   id: number
 
